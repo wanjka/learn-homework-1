@@ -16,7 +16,7 @@
 def reveal_user_experience(age):
     if age < 3 or age > 70:
         raise ValueError('Такой возраст не обрабатывается')
-    elif age >= 3 and age < 7:
+    elif 3 <= age < 7:
         return 'Детский сад'
     elif age >= 7 and age < 17:
         return 'Школа'
